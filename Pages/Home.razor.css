@@ -1,0 +1,220 @@
+.home-container {
+    height: 100%;
+    align-items: stretch;
+}
+.footer {
+    height: 50px;
+    padding: 0 24px;
+    background-color: hsla(var(--igc-gray-100));
+    border-width: 0px 0px 1px 0px;
+    border-color: hsla(var(--igc-gray-200));
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    min-height: 50px;
+    min-width: 50px;
+}
+.sitemap {
+    justify-content: space-evenly;
+    min-height: 170px;
+    overflow: hidden;
+    border-width: 1px 0px 0px 0px;
+    padding: 24px;
+    border-color: hsla(var(--igc-gray-200));
+    border-style: solid;
+    position: relative;
+    min-width: 50px;
+}
+.content {
+    padding: 48px 24px;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    min-height: 50px;
+    min-width: 50px;
+}
+.group {
+    min-width: 700px;
+    background-color: hsla(var(--igc-surface-500));
+    align-items: stretch;
+    flex-shrink: 0;
+}
+.group_1 {
+    min-width: 100px;
+    background-color: hsla(var(--igc-warn-500));
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    min-height: 50px;
+}
+.main-page-header {
+    min-height: 240px;
+    background-color: #151725;
+    background-image: url("https://filetransfer.infragistics.com/public.php?service=files&t=6411ef0b474804e48e2a432c1160de80&download");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 50px;
+}
+.group_2 {
+    max-width: 1280px;
+    flex-basis: 0;
+    flex-grow: 1;
+    align-items: stretch;
+    position: relative;
+    min-height: 50px;
+}
+.text {
+    margin: 0 0 16px;
+    text-align: center;
+    color: hsla(var(--igc-surface-500));
+    height: max-content;
+    min-width: min-content;
+}
+.h5 {
+    margin: 0 24px 32px;
+    height: max-content;
+    min-width: min-content;
+}
+.h5_1 {
+    margin: 48px 24px 32px;
+    height: max-content;
+    min-width: min-content;
+}
+.text_1 {
+    margin: 8px 0 0;
+    height: max-content;
+    min-width: min-content;
+}
+.text_2 {
+    margin: 0 16px 0 0;
+    color: hsla(var(--igc-gray-800));
+    flex-shrink: 0;
+    height: max-content;
+    min-width: min-content;
+}
+.group_3 {
+    max-width: 1680px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    min-width: 50px;
+}
+.h4 {
+    text-align: center;
+    color: hsla(var(--igc-surface-500));
+    height: max-content;
+    min-width: min-content;
+}
+.text_3 {
+    margin: 0 32px 0 0;
+    color: hsla(var(--igc-gray-700));
+    flex-shrink: 0;
+    height: max-content;
+    min-width: min-content;
+}
+.group_4 {
+    flex-grow: 1;
+    align-items: stretch;
+    flex-shrink: 0;
+    min-height: 50px;
+}
+.text_4 {
+    color: hsla(var(--igc-gray-700));
+    flex-shrink: 0;
+    height: max-content;
+    min-width: min-content;
+}
+.group_5 {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 50px;
+}
+.actions-content {
+    min-height: 40px;
+    min-width: 50px;
+}
+.h6 {
+    color: hsla(var(--igc-gray-800));
+    height: max-content;
+    min-width: min-content;
+}
+.group_6 {
+    align-items: stretch;
+    position: relative;
+    min-height: 50px;
+    min-width: 50px;
+}
+.group_7 {
+    flex-shrink: 0;
+}
+.group_8 {
+    position: relative;
+    min-height: 50px;
+    min-width: 50px;
+}
+.body-content {
+    min-height: 50px;
+    min-width: 50px;
+}
+.text_5 {
+    height: max-content;
+    min-width: min-content;
+}
+.select {
+    width: 150px;
+    flex-shrink: 0;
+    height: max-content;
+}
+.button {
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-width: min-content;
+    height: max-content;
+}
+.button::part(base) {
+    color: hsla(var(--igc-surface-500));
+}
+.select_1 {
+    min-width: 150px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: max-content;
+}
+.button_1 {
+    margin: 0 0 8px;
+    min-width: min-content;
+    height: max-content;
+}
+.button_1::part(base) {
+    color: hsla(var(--igc-primary-500));
+    background-color: transparent;
+}
+.card {
+    min-width: 160px;
+    margin: 0 8px 8px 0;
+    height: max-content;
+    max-width: 260px;
+    flex-shrink: 0;
+}
+.card_1 {
+    margin: 0 8px 8px 0;
+    height: max-content;
+    max-width: 260px;
+    flex-shrink: 0;
+}
+.row {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}

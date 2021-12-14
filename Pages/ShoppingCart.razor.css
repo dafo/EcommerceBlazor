@@ -1,0 +1,204 @@
+.group {
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-height: 32px;
+    background-color: transparent;
+    padding: 8px;
+    min-width: 50px;
+}
+.shopping-cart-container {
+    height: 100%;
+    align-items: stretch;
+}
+.sitemap {
+    justify-content: space-evenly;
+    min-height: 170px;
+    padding: 24px;
+    overflow: hidden;
+    border-width: 1px 0px 0px 0px;
+    border-color: hsla(var(--igc-gray-200));
+    border-style: solid;
+    position: relative;
+    min-width: 50px;
+}
+.image {
+    min-width: 0;
+    min-height: 0;
+    object-fit: none;
+    flex-shrink: 0;
+}
+.group_1 {
+    min-width: 600px;
+    flex-basis: 0;
+    flex-grow: 1;
+    align-items: stretch;
+    min-height: 50px;
+    position: relative;
+}
+.group_2 {
+    min-width: 280px;
+    margin: 0 0 0 56px;
+    max-width: 400px;
+    flex-grow: 1;
+    align-items: stretch;
+    min-height: 50px;
+    position: relative;
+    flex-shrink: 0;
+}
+.group_3 {
+    min-width: 160px;
+    background-color: hsla(var(--igc-warn-500));
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    flex-shrink: 0;
+}
+.inner-pages-header {
+    min-height: 140px;
+    background-color: #151725;
+    background-image: url("https://filetransfer.infragistics.com/public.php?service=files&t=6411ef0b474804e48e2a432c1160de80&download");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 50px;
+}
+.footer {
+    background-color: hsla(var(--igc-gray-100));
+    padding: 0 24px;
+    border-width: 0px 0px 1px 0px;
+    height: 50px;
+    border-color: hsla(var(--igc-gray-200));
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    position: relative;
+    min-width: 50px;
+    flex-shrink: 0;
+}
+.text {
+    margin: 0 16px 0 0;
+    color: hsla(var(--igc-gray-800));
+    flex-shrink: 0;
+    min-width: min-content;
+    height: max-content;
+}
+.text_1 {
+    color: hsla(var(--igc-surface-500));
+    margin: 8px 0 0;
+    min-width: min-content;
+    height: max-content;
+}
+.hyperlink {
+    color: hsla(var(--igc-primary-500));
+    min-width: min-content;
+    height: max-content;
+}
+.content {
+    padding: 48px 24px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 50px;
+    flex-shrink: 0;
+}
+.group_4 {
+    max-width: 1680px;
+    flex-basis: 0;
+    flex-grow: 1;
+    align-items: stretch;
+    min-width: 50px;
+}
+.text_2 {
+    margin: 8px 0 0;
+    min-width: min-content;
+    height: max-content;
+}
+.text_3 {
+    margin: 0 32px 0 0;
+    color: hsla(var(--igc-gray-700));
+    flex-shrink: 0;
+    min-width: min-content;
+    height: max-content;
+}
+.group_5 {
+    align-items: baseline;
+    justify-content: space-between;
+    min-height: 32px;
+    background-color: transparent;
+    padding: 8px;
+    min-width: 50px;
+}
+.element {
+    margin: 0 0 24px;
+}
+.text_4 {
+    color: hsla(var(--igc-gray-700));
+    flex-shrink: 0;
+    min-width: min-content;
+    height: max-content;
+}
+.element_1 {
+    text-align: right;
+    min-width: min-content;
+    height: max-content;
+}
+.group_6 {
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    position: relative;
+}
+.group_7 {
+    align-items: stretch;
+    min-height: 50px;
+    position: relative;
+    min-width: 50px;
+}
+.group_8 {
+    min-height: 50px;
+    position: relative;
+    min-width: 50px;
+}
+.element_2 {
+    flex-shrink: 0;
+}
+.element_3 {
+    min-width: min-content;
+    height: max-content;
+}
+.h6 {
+    height: max-content;
+}
+.list {
+    height: max-content;
+}
+.list-item {
+    min-width: 0;
+    min-height: 0;
+}
+.icon {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    color: hsla(var(--igc-gray-600));
+}
+.button {
+    height: max-content;
+    min-width: min-content;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.button::part(base) {
+    color: hsla(var(--igc-surface-500));
+}
+.row {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}

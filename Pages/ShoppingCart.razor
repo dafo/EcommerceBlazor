@@ -1,0 +1,133 @@
+@page "/shopping-cart"
+@inject NavigationManager NavigationManager
+
+<div class="shopping-cart-container column">
+    <div class="inner-pages-header column">
+        <img src="https://filetransfer.infragistics.com/public.php?service=files&t=5fdfefcda0f2d06be3b378700d990039&download" class="image" />
+        <p class="typography__body-1 text_1">Enjoy 20% off on all your weekend purchases</p>
+    </div>
+    <div class="content row">
+        <div class="group_4 column">
+            <h5 class="element element_3">Shopping Cart</h5>
+            <div class="group_7 element_2 row">
+                <div class="group_1 column">
+                    <IgbList class="list" shopping-cart-scope>
+                        <IgbListItem class="list-item" shopping-cart-scope>
+                            <div slot="start">
+                                <IgbAvatar Src="https://filetransfer.infragistics.com/public.php?service=files&t=b071d194cfe9fb66c4b47374b99f7f3b&download" Size="SizableComponentSize.Large"></IgbAvatar>
+                            </div>
+                            <div slot="end">
+                                <span class="material-icons icon">remove_shopping_cart</span>
+                            </div>
+                        </IgbListItem>
+                        <IgbListItem class="list-item" shopping-cart-scope>
+                            <div slot="start">
+                                <IgbAvatar Src="https://filetransfer.infragistics.com/public.php?service=files&t=bfe2dad6262481c5e438fc6f5f8028f7&download" Size="SizableComponentSize.Large"></IgbAvatar>
+                            </div>
+                            <div slot="end">
+                                <span class="material-icons icon">remove_shopping_cart</span>
+                            </div>
+                        </IgbListItem>
+                        <IgbListItem class="list-item" shopping-cart-scope>
+                            <div slot="start">
+                                <IgbAvatar Src="https://filetransfer.infragistics.com/public.php?service=files&t=0212c47c4a204776d8fa829a0242703a&download" Size="SizableComponentSize.Large"></IgbAvatar>
+                            </div>
+                            <div slot="end">
+                                <span class="material-icons icon">remove_shopping_cart</span>
+                            </div>
+                        </IgbListItem>
+                        <IgbListItem class="list-item" shopping-cart-scope>
+                            <div slot="start">
+                                <IgbAvatar Src="https://filetransfer.infragistics.com/public.php?service=files&t=94ab63891e2281af8ac8d25f0eefe668&download" Size="SizableComponentSize.Large"></IgbAvatar>
+                            </div>
+                            <div slot="end">
+                                <span class="material-icons icon">remove_shopping_cart</span>
+                            </div>
+                        </IgbListItem>
+                        <IgbListItem class="list-item" shopping-cart-scope>
+                            <div slot="start">
+                                <IgbAvatar Src="https://filetransfer.infragistics.com/public.php?service=files&t=e085680e333431b86855ca29a4567964&download" Size="SizableComponentSize.Large"></IgbAvatar>
+                            </div>
+                            <div slot="end">
+                                <span class="material-icons icon">remove_shopping_cart</span>
+                            </div>
+                        </IgbListItem>
+                    </IgbList>
+                </div>
+                <div class="group_2 column">
+                    <h6 class="element h6">Cart totals</h6>
+                    <div class="group_5 row">
+                        <p class="typography__subtitle-2 element_2 element_3">Subtotal</p>
+                        <p class="typography__body-1 element_1 element_2">$198.30</p>
+                    </div>
+                    <div class="group_5 row">
+                        <p class="typography__subtitle-2 element_2 element_3">Shipping</p>
+                        <p class="typography__body-1 element_1 element_2">$0</p>
+                    </div>
+                    <div class="group column">
+                        <p class="typography__body-2 element_1">Shipping wiil be calculated at checkout</p>
+                        <a class="typography__body-2 hyperlink">Estimate shipping</a>
+                    </div>
+                    <div class="group_5 element row">
+                        <h6 class="element_2 element_3">Total</h6>
+                        <h6 class="element_1 element_2">$198.30</h6>
+                    </div>
+                    <div class="group_3 row">
+                        <IgbButton Variant="ButtonVariant.Flat" class="button" shopping-cart-scope>
+                            PROCEED TO CHECKOUT
+                            <IgbRipple></IgbRipple>
+                        </IgbButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sitemap row">
+        <div class="group_8 column">
+            <p class="typography__subtitle-2 element_3">Contact Us</p>
+            <p class="typography__body-2 element_3">1234 Street Name, CityName, ST</p>
+            <p class="typography__body-2 element_3"> 10520 United States</p>
+            <p class="typography__subtitle-2 text_2">Phone Number</p>
+            <p class="typography__body-2 element_3">1-234-567-8901</p>
+        </div>
+        <div class="group_7 column">
+            <p class="typography__subtitle-2 element_3">Help</p>
+            <p class="typography__body-2 element_3">FAQ</p>
+            <p class="typography__body-2 element_3">Returns</p>
+            <p class="typography__body-2 element_3">Coupons &amp; Discounts</p>
+            <p class="typography__body-2 element_3">Shipping &amp; Returns</p>
+        </div>
+        <div class="group_7 column">
+            <p class="typography__subtitle-2 element_3">About Us</p>
+            <p class="typography__body-2 element_3">Company Info</p>
+            <p class="typography__body-2 element_3">Press Releases</p>
+            <p class="typography__body-2 element_3">Careers</p>
+            <p class="typography__body-2 element_3">Reviews</p>
+        </div>
+        <div class="group_7 column">
+            <p class="typography__subtitle-2 element_3">Services</p>
+            <p class="typography__body-2 element_3">Buy Online</p>
+            <p class="typography__body-2 element_3">In-Store</p>
+            <p class="typography__body-2 element_3">Repair Help</p>
+            <p class="typography__body-2 element_3">Find a Repair Shop</p>
+        </div>
+        <div class="group_7 column">
+            <p class="typography__subtitle-2 element_3">Blog</p>
+            <p class="typography__body-2 element_3">Car Building Basics</p>
+            <p class="typography__body-2 element_3">Do it Yourself</p>
+            <p class="typography__body-2 element_3">Your Home Workshop</p>
+            <p class="typography__body-2 element_3">Advanced Bulding</p>
+        </div>
+    </div>
+    <div class="footer row">
+        <p class="typography__body-2 text">Copyright ©2021 AutoShop.com, Inc. All Rights Reserved.</p>
+        <div class="group_6 row">
+            <p class="typography__body-2 text_3">Terms of Use</p>
+            <p class="typography__body-2 text_3">Privacy Policy</p>
+            <p class="typography__body-2 text_4">Site Map</p>
+        </div>
+    </div>
+</div>
+
+@code {
+}
